@@ -27,7 +27,6 @@ function Navbar() {
                         <NavigationMenuLink href="/about">About</NavigationMenuLink>
                     </NavigationMenuList>
                 </NavigationMenu>
-                <span className="logo text-4xl pr-2 font-bold text-green-800">G</span>
             </div>
 
             <div className="hidden lg:flex flex-1 justify-center px-4">
