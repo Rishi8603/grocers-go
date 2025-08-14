@@ -10,7 +10,7 @@ function Wishlist() {
   const { addToCart } = useContext(CartContext);
 
   const handleMoveToCart = (product) => {
-    addToCart(product.id);
+    addToCart(product);
     removeFromWishlist(product.id);
   };
 
